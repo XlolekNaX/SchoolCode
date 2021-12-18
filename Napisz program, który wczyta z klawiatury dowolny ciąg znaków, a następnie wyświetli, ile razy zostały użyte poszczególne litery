@@ -1,0 +1,101 @@
+/* Napisz program, który wczyta z klawiatury dowolny ciąg znaków, a następnie wyświetli, ile razy zostały użyte poszczególne litery. */
+
+
+
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+int main(int argc, char** argv) {
+
+
+string zdanie;
+int dl, licznika=0, licznikb=0, licznikc=0, licznikd=0, licznike=0, licznikf=0, licznikg=0, licznikh=0, liczniki=0, licznikj=0, licznikk=0, licznikl=0, licznikm=0, licznikn=0, liczniko=0, licznikp=0, licznikr=0, liczniks=0, licznikt=0, liczniku=0, licznikw=0, licznikx=0, liczniky=0, licznikz=0;
+char znak;
+
+cout<<"Podaj ciag znakow"<<endl;
+cin>>zdanie;
+
+dl=zdanie.length();
+for (int a=0; a<=dl-1; a++)
+	{
+		znak=zdanie[a];
+		if (znak=='a') {licznika++;}
+		if (znak=='A') {licznika++;}
+		if (znak=='b') {licznikb++;}
+		if (znak=='B') {licznikb++;}
+		if (znak=='c') {licznikc++;}
+		if (znak=='C') {licznikc++;}
+		if (znak=='d') {licznikd++;}
+		if (znak=='D') {licznikd++;}
+		if (znak=='e') {licznike++;}
+		if (znak=='E') {licznike++;}
+		if (znak=='f') {licznikf++;}
+		if (znak=='F') {licznikf++;}
+		if (znak=='g') {licznikg++;}
+		if (znak=='G') {licznikg++;}
+		if (znak=='h') {licznikh++;}
+		if (znak=='H') {licznikh++;}
+		if (znak=='i') {liczniki++;}
+		if (znak=='I') {liczniki++;}
+		if (znak=='j') {licznikj++;}
+		if (znak=='J') {licznikj++;}
+		if (znak=='k') {licznikk++;}
+		if (znak=='K') {licznikk++;}
+		if (znak=='l') {licznikl++;}
+		if (znak=='L') {licznikl++;}
+		if (znak=='m') {licznikm++;}
+		if (znak=='M') {licznikm++;}
+		if (znak=='n') {licznikn++;}
+		if (znak=='N') {licznikn++;}
+		if (znak=='o') {liczniko++;}
+		if (znak=='O') {liczniko++;}
+		if (znak=='p') {licznikp++;}
+		if (znak=='P') {licznikp++;}
+		if (znak=='r') {licznikr++;}
+		if (znak=='R') {licznikr++;}
+		if (znak=='s') {liczniks++;}
+		if (znak=='S') {liczniks++;}
+		if (znak=='t') {licznikt++;}
+		if (znak=='T') {licznikt++;}
+		if (znak=='u') {liczniku++;}
+		if (znak=='U') {liczniku++;}
+		if (znak=='w') {licznikw++;}
+		if (znak=='W') {licznikw++;}
+		if (znak=='x') {licznikx++;}
+		if (znak=='X') {licznikx++;}
+		if (znak=='y') {liczniky++;}
+		if (znak=='Y') {liczniky++;}
+		if (znak=='z') {licznikz++;}
+		if (znak=='Z') {licznikz++;}
+	}
+	
+cout<<"Liter  a  bylo "<<licznika<<endl;
+cout<<"Liter  b  bylo "<<licznikb<<endl;
+cout<<"Liter  c  bylo "<<licznikc<<endl;
+cout<<"Liter  d  bylo "<<licznikd<<endl;
+cout<<"Liter  e  bylo "<<licznike<<endl;
+cout<<"Liter  f  bylo "<<licznikf<<endl;
+cout<<"Liter  g  bylo "<<licznikg<<endl;
+cout<<"Liter  h  bylo "<<licznikh<<endl;
+cout<<"Liter  i  bylo "<<liczniki<<endl;
+cout<<"Liter  j  bylo "<<licznikj<<endl;
+cout<<"Liter  k  bylo "<<licznikk<<endl;
+cout<<"Liter  l  bylo "<<licznikl<<endl;
+cout<<"Liter  m  bylo "<<licznikm<<endl;
+cout<<"Liter  n  bylo "<<licznikn<<endl;
+cout<<"Liter  o  bylo "<<liczniko<<endl;
+cout<<"Liter  p  bylo "<<licznikp<<endl;
+cout<<"Liter  r  bylo "<<licznikr<<endl;
+cout<<"Liter  s  bylo "<<liczniks<<endl;
+cout<<"Liter  t  bylo "<<licznikt<<endl;
+cout<<"Liter  u  bylo "<<liczniku<<endl;
+cout<<"Liter  w  bylo "<<licznikw<<endl;
+cout<<"Liter  x  bylo "<<licznikx<<endl;
+cout<<"Liter  y  bylo "<<liczniky<<endl;
+cout<<"Liter  z  bylo "<<licznikz<<endl;
+
+
+	return 0;
+}
