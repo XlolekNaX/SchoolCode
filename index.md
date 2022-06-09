@@ -1,6 +1,6 @@
 ## Witaj!
 
-Tu możesz zobaczyć moje projekty./
+Tu możesz zobaczyć moje projekty.
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -8,9 +8,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Tu
+## są moje
+### projekty
 
 - Bulleted
 - List
