@@ -1,4 +1,5 @@
 int a,b,suma;
-cin>>a>>b;
-suma=a*b;
+cin>>a;
+cin>>b;
+suma=a+b;
 cout<<endl<<"Suma wynosi "<<suma<<endl;
